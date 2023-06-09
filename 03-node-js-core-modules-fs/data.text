@@ -1,0 +1,5 @@
+One of my favorite interview questions I ask is "what is the default scope of a C # class?". 
+What do you think?
+
+Many times people answer, that it is either private or public. So let me correct that first. 
+In C# a class can't be declared as private, let's try to do

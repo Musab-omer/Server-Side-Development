@@ -1,0 +1,11 @@
+This clearly demonstrates that a C# can't even be either protected or protected internal.
+
+So you have two choices left now, a C# class's scope can be either public or internal.
+
+Now, the class design best practices doesn't allow a class to be promoted to public, unless 
+there is a business case.
+ In other words this class is serving other classes or its functionality is being re-used by
+  other classes etcetera.
+
+So, now there is only one choice left, and that is of course "internal", and so that is what we use. 
+In other words the default scope of a C# class is internal.
